@@ -8,7 +8,6 @@
   .background {
     background-color: #FFFAF8;
   }
-
   .greenBackground {
     background-color: #bce2df;
   }
@@ -20,18 +19,15 @@
   Title {
   text-align: center;
   }
-
   ul {
   text-align: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
   }
-
   li {
   float: left;
   }
-
   li a {
   display: block;
   color: black;
@@ -39,16 +35,13 @@
   padding: 14px 16px;
   text-decoration: none;
   }
-
   li a:hover {
   background-color: #bce2df;
   }
-
   a {
   text-decoration: none;
   color: black;
   }
-
   li a, .dropbtn {
   display: inline-block;
   color: black;
@@ -56,15 +49,12 @@
   padding: 14px 16px;
   text-decoration: none;
   }
-
   li a:hover, .dropdown:hover .dropbtn {
   background-color: #bce2df;
   }
-
   li.dropdown {
   display: inline-block;
   }
-
   .dropdown-content {
   display: none;
   position: absolute;
@@ -73,7 +63,6 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   }
-
   .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -81,48 +70,38 @@
   display: block;
   text-align: left;
   }
-
   .dropdown-content a:hover {background-color: #bce2df;}
-
   .dropdown:hover .dropdown-content {
   display: block;
   }
-
   h1 {
   text-align: center;
   }
-
   h2 {
   text-align: center;
   }
-
   .column {
   float: left;
   width: 45%;
   padding: 5px;
   }
-
   .row::after {
   content: "";
   clear: both;
   display: table;
   }
-
   div {
   text-align: center;
   }
-
   .header {
   background-color: #d3d3d3;
   padding: 30px;
   text-align: center;
   }
-
   #navbar {
   overflow: white;
   background-color: white;
   }
-
   #navbar a {
   display: block;
   color: black;
@@ -131,45 +110,36 @@
   text-decoration: none;
   font-size: 17px;
   }
-
   #navbar a:hover {
   background-color: #bce2df;
   color: white;
   }
-
   #navbar a.active {
   background-color: black;
   color: white;
   }
-
   .content {
   padding: 16px;
   }
-
   .sticky {
   position: fixed;
   top: 0;
   width: 100%;
   }
-
   .sticky + .content {
   padding-top: 10px;
   }
-
   * {
     box-sizing: border-box;
   }
-
   .row {
     display: flex;
   }
-
   /* Create three equal columns that sits next to each other */
   .column {
     flex: 25%;
     padding: 10px;
   }
-
   .btn {
     border: 2px #d3d3d3;
     background-color: #FFFAF8;
@@ -178,12 +148,15 @@
     font-size: 12px;
     cursor: pointer;
   }
-
 .icon {
   height: 250px;
   width: auto;
 }
-
+ .self {
+  height: 100px;
+  width: auto;
+}
+  
 </style>
 <body>
 <center>
@@ -199,7 +172,7 @@
     <h3>PANINI CO.</h3>
   </div>
   <div class="column">
-    <img src="imageFakes/logo.png" width="100" height="100">
+    <img src="../imageFakes/logo.png" width="100" height="100">
   </div>
   <div class="column">
     <h2>             </h2>
@@ -224,7 +197,7 @@
         <a href="area51.html">Area 51</a>
         <a href="faces.html">Faces</a>
         <a href="fanjay.html">Fanjay</a>
-        <a href="knockOff/knockOff.html">Knock Off</a>
+        <a href="knockOff.html">Knock Off</a>
       </div>
     </li>
     <li><a href="creators.html">Creators</a></li>
@@ -235,7 +208,7 @@
   <br>
   <br>
 <center>
-    <img src="imageFakes/logo.png" width="auto" height="300">
+    <img src="../imageFakes/logo.png" width="auto" height="300">
     <br>
     <br>
     <br>
@@ -257,21 +230,21 @@
   <div class="row">
   <div class="column">
     <div class="content">
-    <img class="icon" src="imageFakes/jokeIcon.png" alt="Lights">
+    <img class="icon" src="../imageFakes/jokeIcon.png" alt="Lights">
       <h3>Humor</h3>
     </div>
   </div>
 
   <div class="column">
     <div class="content">
-    <img class="icon" src="imageFakes/moneyIcon.png" alt="Nature">
+    <img class="icon" src="../imageFakes/moneyIcon.png" alt="Nature">
       <h3>Affordable</h3>
     </div>
   </div>
 
   <div class="column">
     <div class="content">
-    <img class="icon" src="imageFakes/ecoIcon.png" alt="Mountains">
+    <img class="icon" src="../imageFakes/ecoIcon.png" alt="Mountains">
       <h3>Eco-friendly</h3>
     </div>
   </div>
@@ -294,7 +267,7 @@
   <div class="column">
     <div class="content">
       <a href="antiGreenGreenClub.html">
-      <img src="new_anti.png" alt="Mountains" style="width:100%">
+      <img src="../imageFakes/new_anti.png" alt="Mountains" style="width:100%">
       <h3>Anti Green Green Club</h3>
       </a>
     </div>
@@ -330,7 +303,7 @@
   <div class="column">
     <div class="content">
       <a href="knockOff.html">
-      <img src="snake.png" alt="Mountains" style="width:100%">
+      <img src="../imageFakes/snake.png" alt="Mountains" style="width:100%">
       <h3>Knock Off</h3>
       </a>
     </div>
@@ -348,45 +321,45 @@
   <br>
   <div class="row">
   <div class="column">
-    <div class="content">
+    <div class="content" class="self">
       <a href="creators.html">
-      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <img src="../imageFakes/emily.JPG" alt="Mountains" style="width:100%">
       <h3>Emily Chin</h3>
       </a>
     </div>
   </div>
 
   <div class="column">
-    <div class="content">
+    <div class="content" class="self">
       <a href="creators.html">
-      <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+      <img src="../imageFakes/tsering.JPG" alt="Lights" style="width:100%">
       <h3>Tsering Rabten</h3>
       </a>
     </div>
   </div>
 
   <div class="column">
-    <div class="content">
+    <div class="content" class="self">
       <a href="creators.html">
-      <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+      <img src="../imageFakes/kendall.jpeg" alt="Nature" style="width:100%">
       <h3>Kendall Hall</h3>
       </a>
     </div>
   </div>
 
   <div class="column">
-    <div class="content">
+    <div class="content" class="self">
       <a href="creators.html">
-      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <img src="../imageFakes/kaitlyn.JPG" alt="Mountains" style="width:100%">
       <h3>Kaitlyn Thai</h3>
       </a>
     </div>
   </div>
 
   <div class="column">
-    <div class="content">
+    <div class="content" class="self">
       <a href="creators.html">
-      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <img src="../imageFakes/mindy.jpg" alt="Mountains" style="width:100%">
       <h3>Mindy Duong</h3>
       </a>
     </div>
